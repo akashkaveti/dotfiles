@@ -1,0 +1,119 @@
+# by https://github.com/Homebrew/homebrew-bundle
+tap "buo/cask-upgrade"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "neovim/neovim"
+
+
+# replace Mac OS command line utils
+brew "curl"
+brew "emacs"
+brew "findutils"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-time"
+brew "gnu-which"
+brew "stow"
+brew "vim"
+brew "coreutils"
+brew "openssl"
+brew "bash"
+
+# previously uninstalled command line utils
+brew "exa"
+brew "dos2unix"
+brew "fzf"
+brew "fzy"
+brew "gnupg"
+brew "htop-osx"
+brew "xz"
+brew "imagemagick"
+brew "jq"
+brew "nmap"
+brew "pv"
+brew "ripgrep"
+brew "the_silver_searcher"      # "ag" :)
+brew "tmux"
+brew "unrar"
+brew "watch"
+brew "wget"
+brew "fish"
+brew "git"
+brew "jump"
+
+# fonts
+cask "font-fira-code"
+cask "font-hack"
+cask "font-monoid"
+cask "font-inconsolata"
+cask "font-source-code-pro"
+cask "font-jetbrains-mono"
+
+# docker & friends
+# brew "docker"
+# brew "docker-machine"
+# brew "docker-compose"
+
+# coding
+cask "visual-studio-code"
+brew "autoenv"
+brew "bfg"
+brew "node"
+brew "python3"
+brew "tig"
+
+# misc applications
+brew "hugo"
+
+# cloud shit
+brew "awscli"
+brew "terraform"
+
+# mac stuff
+# cask "fluor"
+cask "gpg-suite"
+cask "iterm2"
+# cask "logitech-unifying"
+# cask "virtualbox"
+# cask "hazel"
+cask "flycut"
+# brew "mas"
+
+# (mac) ui appliccations
+cask "firefox"
+# cask "authy"
+# cask "pdf-expert"
+# cask "rocket"
+# cask "dozer"
+# cask "contexts"
+# cask "logitech-options"
+# cask "typinator"
+# cask "nextcloud"
+# cask "fontexplorer-x-pro"
+# cask "jdownloader"
+# cask "libreoffice"
+# cask "sublime-text-dev"
+# cask "pycharm"
+# cask "wireshark"
+# cask "cyberduck"
+# cask "telegram"           # the correct one
+# cask "typora"             # markdown editor
+# cask "pastebot" -> bought in app store ...
+
+# mac app store applications
+# mas "Amphetamine", id: 937984704
+# mas "Affinity Photo", id: 824183456
+# mas "Affinity Publisher", id: 881418622
+# mas "Banking 4X", id: 926711151
+mas "BetterSnapTool", id: 417375580
+# mas "ForkLift", id: 412448059
+# mas "Keka", id: 470158793
+# mas "MoneyMoney", id: 872698314
+# mas "Pastebot", id: 1179623856
+# mas "PhotoSync", id: 418818452
+# mas "The Unarchiver", id: 425424353
+# mas "Monosnap", id: 540348655
