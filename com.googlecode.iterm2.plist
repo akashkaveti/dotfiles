@@ -47,7 +47,7 @@
 				<key>Red Component</key>
 				<real>0.40392157435417175</real>
 			</dict>
-			<key>Ansi 11 Color</key>
+			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Blue Component</key>
 				<real>0.0</real>
@@ -1463,7 +1463,7 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 18</string>
+			<string>Monaco 15</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
@@ -2371,8 +2371,3 @@
 	<string>3.3.11</string>
 </dict>
 </plist>
-
-
-
-
-
