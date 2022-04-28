@@ -34,16 +34,17 @@ brew "xz"
 brew "imagemagick"
 brew "jq"
 brew "nmap"
+brew "svn"
 brew "pv"
 brew "ripgrep"
 brew "the_silver_searcher"      # "ag" :)
 brew "tmux"
-brew "unrar"
 brew "watch"
 brew "wget"
 brew "fish"
 brew "git"
 brew "jump"
+brew "tfenv"
 
 # fonts
 cask "font-fira-code"
@@ -85,6 +86,7 @@ cask "flycut"
 
 # (mac) ui appliccations
 cask "firefox"
+cask "slack"
 # cask "authy"
 # cask "pdf-expert"
 # cask "rocket"
