@@ -45,6 +45,7 @@ brew "fish"
 brew "git"
 brew "jump"
 brew "tfenv"
+brew "pwgen"
 
 # fonts
 cask "font-fira-code"
