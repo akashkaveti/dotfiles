@@ -23,6 +23,7 @@ brew "coreutils"
 brew "openssl"
 brew "bash"
 
+
 # previously uninstalled command line utils
 brew "exa"
 brew "dos2unix"
@@ -74,6 +75,7 @@ brew "hugo"
 # cloud shit
 brew "awscli"
 brew "terraform"
+brew "azure-cli"
 
 # mac stuff
 # cask "fluor"
