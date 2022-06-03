@@ -76,6 +76,7 @@ brew "hugo"
 brew "awscli"
 brew "terraform"
 brew "azure-cli"
+brew "terragrunt"
 
 # mac stuff
 # cask "fluor"
