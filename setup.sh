@@ -27,4 +27,5 @@ brew bundle --file=$HOME/.dotfiles/dotfiles/Brewfile
 pip3 install virtualenvwrapper
 
 # continue with generic items
-"$HOME/.dotfiles/setup/generic.sh"
+echo -e "\n\n * Installing zsh manager(s) ..."
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
