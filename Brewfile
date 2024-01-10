@@ -109,17 +109,12 @@ cask "slack"
 # cask "telegram"           # the correct one
 # cask "typora"             # markdown editor
 # cask "pastebot" -> bought in app store ...
+cask "spotify"
+cask "microsoft-teams"
+cask "microsoft-outlook"
 
-# mac app store applications
-# mas "Amphetamine", id: 937984704
-# mas "Affinity Photo", id: 824183456
-# mas "Affinity Publisher", id: 881418622
-# mas "Banking 4X", id: 926711151
-mas "BetterSnapTool", id: 417375580
-# mas "ForkLift", id: 412448059
-# mas "Keka", id: 470158793
-# mas "MoneyMoney", id: 872698314
-# mas "Pastebot", id: 1179623856
-# mas "PhotoSync", id: 418818452
-# mas "The Unarchiver", id: 425424353
-# mas "Monosnap", id: 540348655
+
+# docker & friends
+brew "docker"
+brew "docker-machine"
+brew "docker-compose"
