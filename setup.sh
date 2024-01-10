@@ -21,7 +21,7 @@ if [ ! -d "$HOME/.dotfiles" ] ; then
 fi
 
 # NOW we have the brewfile :) . use it.
-brew bundle --file=$HOME/.dotfiles/dotfiles/Brewfile
+brew bundle --file=$HOME/.dotfiles/Brewfile
 
 # install virtualenvwrapper for the oh-my-zsh plugin
 pip3 install virtualenvwrapper
