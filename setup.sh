@@ -2,7 +2,7 @@
 
 # install homebrew if needed
 if ! which brew ; then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   # we don't have the Brewfile cloned - yet. so ... wait.
 else
   echo "Skipping homebrew installation. Seems to be installed."
