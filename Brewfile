@@ -118,3 +118,8 @@ cask "microsoft-outlook"
 brew "docker"
 brew "docker-machine"
 brew "docker-compose"
+
+
+# Kubernetes
+brew "kubernetes-cli"
+brew "krew"
