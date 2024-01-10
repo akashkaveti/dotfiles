@@ -3,6 +3,11 @@
 # install homebrew if needed
 if ! which brew ; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  # For Mac M2 and M3
+  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+
   # we don't have the Brewfile cloned - yet. so ... wait.
 else
   echo "Skipping homebrew installation. Seems to be installed."
