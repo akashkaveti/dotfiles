@@ -29,3 +29,7 @@ pip3 install virtualenvwrapper
 # continue with generic items
 echo -e "\n\n * Installing zsh manager(s) ..."
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# for auto suggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh

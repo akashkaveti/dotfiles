@@ -71,6 +71,7 @@ brew "tig"
 
 # misc applications
 brew "hugo"
+brew "zsh-autosuggestions"
 
 # cloud shit
 brew "awscli"
@@ -112,14 +113,16 @@ cask "slack"
 cask "spotify"
 cask "microsoft-teams"
 cask "microsoft-outlook"
+cask "docker"
 
-
-# docker & friends
-brew "docker"
-brew "docker-machine"
-brew "docker-compose"
+# # docker & friends
+# brew "docker"
+# brew "docker-machine"
+# brew "docker-compose"
 
 
 # Kubernetes
 brew "kubernetes-cli"
 brew "krew"
+brew "helm"
+brew "openshift-cli"
